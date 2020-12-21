@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/Top">Top</router-link> |
+      <router-link to="/Left">Left</router-link>|
+      <router-link to="/Right">Right</router-link>|
+      <router-link to="/Bottom">Bottom</router-link>
     </div>
     <router-view/>
   </div>
